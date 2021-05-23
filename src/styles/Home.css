@@ -1,0 +1,43 @@
+.reel {
+    background-color: black;
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%;
+    margin-top: 40px;
+}
+
+.reel-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  width: 135px;
+  height: 200px;
+  margin: 10px;
+}
+
+.button-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 8fr;
+}
+
+.series-container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-60%, -50%);
+  font-size: 28px;
+}
+
+.text-below {
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+}
+
